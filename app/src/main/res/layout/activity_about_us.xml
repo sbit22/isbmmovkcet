@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="90dp"-->
+<!--        android:src="@drawable/"-->
+<!--        />-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/banner"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingEnd="10dp">
+            <ImageView
+                android:id="@+id/volumeupc"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_volume_up_24"
+                android:layout_gravity="right"
+                android:visibility="gone"
+                />
+            <ImageView
+                android:id="@+id/volumedownc"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_volume_off_24"
+                android:layout_gravity="right"
+                android:visibility="visible"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us :"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/blue_200"
+            android:textSize="29sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/aboutus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ISBM College of Engineering (Accredited by NAAC grade of B++) a constituent of People’s Empowerment Group, Founded in the year 2010 by Dr.Pramod Kumar. ISBM COE has grown rapidly in last 12 years. It has strong alumni base spread all over the country as well as in different parts of the world. At ISBM COE, we maintain a high standard of education and continuously strive to create a learning environment in order to promote a great career .We offers Bachelor of Engineering (BE) program which is approved by AICTE– Delhi, DTE– Mumbai, Maharashtra State Government &amp; Affiliated to Savitribai Phule Pune University."
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppins_regular"
+            android:lineSpacingExtra="1.5dp"
+            android:textSize="13sp"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="We believe in the process of reshaping the attitude of students and giving them an opportunity to explore and rediscover themselves. As a holistic approach, an ISBM COE Student learns to work under very demanding schedules and perform in the most inspiring way."
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppins_regular"
+            android:lineSpacingExtra="1.5dp"
+            android:textSize="13sp"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Pioneers of extended library hours &amp; laboratory access in Pune!!!"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppins_regular"
+            android:lineSpacingExtra="1.5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="13sp"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Vision:"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/blue_200"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="To Empower Efficient and Innovative Technocrats to fit into Global Competency."
+            android:justificationMode="inter_word"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppins_regular"
+            android:lineSpacingExtra="1.5dp"
+            android:textSize="13sp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Mission :"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/blue_200"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="•"
+                    android:textSize="19sp"
+                    android:layout_weight="0.05"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                  />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="13sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1.95"
+                    android:lineSpacingExtra="2dp"
+                    android:justificationMode="inter_word"
+                    android:text="Ensuring State Of The Art Outcome Based Engineering Educational Scenario."
+                    android:fontFamily="@font/poppins_regular"
+                    android:textColor="@color/black"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="•"
+                    android:textSize="19sp"
+                    android:layout_weight="0.05"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="13sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1.95"
+                    android:lineSpacingExtra="2dp"
+                    android:justificationMode="inter_word"
+                    android:text="Fostering A Strong Industry-Institute Partnership Which Leads To A Life Long Career."
+                    android:fontFamily="@font/poppins_regular"
+                    android:textColor="@color/black"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="•"
+                    android:textSize="19sp"
+                    android:layout_weight="0.05"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="13sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1.95"
+                    android:lineSpacingExtra="2dp"
+                    android:justificationMode="inter_word"
+                    android:text=" Linking Students with Societal Challenges By Means Of Exposure To Techno-Societal Arena."
+                    android:fontFamily="@font/poppins_regular"
+                    android:textColor="@color/black"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="•"
+                    android:textSize="19sp"
+                    android:layout_weight="0.05"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    />
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="13sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1.95"
+                    android:lineSpacingExtra="2dp"
+                    android:justificationMode="inter_word"
+                    android:text="Imparting Leadership Qualities To Aspirants Through Multi Dimensional Capacity Building And Soft Skills Enhancement."
+                    android:fontFamily="@font/poppins_regular"
+                    android:textColor="@color/black"/>
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
